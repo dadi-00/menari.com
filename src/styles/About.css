@@ -1,0 +1,47 @@
+.aboutT {
+  margin-top: 50px;
+}
+
+.aboutcontent {
+  padding: 10px 10px;
+  align-items: center;
+  display: flex;
+  margin: 0 50px 20px 20px;
+}
+
+.aboutDetail {
+  padding: 10px 20px;
+  height: 210px;
+  border-radius: 10px;
+  margin: 0 10px;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.aboutDetail h2 {
+  font-weight: bold;
+}
+
+.aboutDetail h4 {
+  font-size: 20px;
+  color: blue;
+}
+
+.aboutT h1{
+  text-align: center;
+  }
+
+  .aboutPic img {
+    border-radius: 10px;
+    width: 210px;
+    height: 210px;
+  }
+
+  .aboutsos svg{
+    transition: color 0.5s ease-out;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .aboutsos :hover {
+    color: #B0384E;
+  }
