@@ -1,4 +1,3 @@
-// App.js
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -14,12 +13,10 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/favorite" element={<Favorite />} />
-        </Routes>
+          <Route path="/" exact component={Home} />
+          <Route path="/blog" exact component={Blog} />
+          <Route path="/about" exact component={About} />
+          <Route path="/favorite" exact component={Favorite} />
         </Switch>
         <Footer />
       </Router>
