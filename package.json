@@ -60,10 +60,6 @@
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   },
-  "browser": {
-    "path": false,
-    "os": false
-  },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "webpack.common.js",
   "keywords": [],

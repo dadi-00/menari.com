@@ -7,7 +7,7 @@
     useEffect(() => {
       const fetchBlogs = async () => {
         try {
-          const response = await axios.get('/api/dances');
+          const response = await axios.get('http://localhost:9000/api/dances');
           setBlogs(response.data);
         } catch (error) {
           console.error('Error fetching blogs:', error);
@@ -19,7 +19,6 @@
 
     return (
       <div>
-        <h2>Blog</h2>
         {blogs.map((blog) => (
           <div key={blog.id}>
             <h3>{blog.nama}</h3>
