@@ -96,11 +96,6 @@ function About() {
       </div>
 
     </div>
-
-    
-
-
-
   );
 }
 
