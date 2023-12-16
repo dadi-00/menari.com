@@ -70,3 +70,29 @@ line-height: 24px;
   font-size: 20px;
   margin: 10px 100px;
 }
+
+@media screen and (max-width: 600px) {
+  .homeHero {
+    height: 600px; /* Adjust the height for smaller screens */
+  }
+
+  .homeHero p {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+
+  .homeMain h3 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .content-container {
+    gap: 10px; /* Adjust the gap between items for smaller screens */
+  }
+
+  .btnhome {
+    width: 100%; /* Make the button full width on smaller screens */
+  }
+
+  .descbot {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+}

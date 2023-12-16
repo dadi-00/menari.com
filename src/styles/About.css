@@ -1,3 +1,4 @@
+/* Default styles */
 .aboutT {
   margin: 50px 0;
 }
@@ -26,22 +27,48 @@
   color: blue;
 }
 
-.aboutT h1{
+.aboutT h1 {
   text-align: center;
+}
+
+.aboutPic img {
+  border-radius: 10px;
+  width: 210px;
+  height: 210px;
+}
+
+.aboutsos svg {
+  transition: color 0.5s ease-out;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.aboutsos:hover {
+  color: #B0384E;
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 1089px) {
+  .aboutcontent {
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .aboutDetail {
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .aboutDetail h4 {
+    font-size: 16px;
   }
 
   .aboutPic img {
-    border-radius: 10px;
-    width: 210px;
-    height: 210px;
+    width: 100%;
+    height: auto;
   }
 
-  .aboutsos svg{
-    transition: color 0.5s ease-out;
-    cursor: pointer;
-    font-size: 50px;
+  .aboutsos svg {
+    font-size: 40px;
   }
-
-  .aboutsos :hover {
-    color: #B0384E;
-  }
+}

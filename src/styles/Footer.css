@@ -1,3 +1,4 @@
+/* Default styles for larger devices */
 .footer {
   width: 100%;
   /* height: 200px; */
@@ -17,14 +18,14 @@
   cursor: pointer;
 }
 
-.content{
+.content {
   width: 100%;
   display: flex;
   margin: 10px 0px;
   /* margin: 45px 15px 0px 0; Top, Right, Bottom, Left */
 }
 
-.contact{
+.contact {
   width: 40%;
   color: white;
   display: flex;
@@ -43,11 +44,11 @@
 }
 
 .logoF img {
-width: 180px;
-margin-left: 50px;
+  width: 180px;
+  margin-left: 50px;
 }
 
-.copy{
+.copy {
   padding: 10px;
   text-align: center;
   font-size: 20px;
@@ -60,8 +61,31 @@ margin-left: 50px;
   margin: 0;
 }
 
-.menuF a{
+.menuF a {
   color: white;
   text-decoration: none;
   margin: 20px;
+}
+
+/* Media query for smaller devices (up to 768px) */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0; /* Adjust padding for better spacing on small screens */
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact,
+  .logoF {
+    width: 100%; /* Full width for contact and logo sections */
+  }
+
+  .logoF img {
+    margin: 0; /* Remove margin for logo image */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image horizontally */
+  }
 }
