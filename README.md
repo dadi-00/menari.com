@@ -9,6 +9,6 @@ Anda dapat mengunduh file dari GitHub dengan menggunakan tombol "Clone or downlo
    ```npm install```
 4. Jalankan program\
    Untuk menjalankan program, jalankan perintah berikut:\
-   ```node src/api.js\```
+   ```node src/api.js```\
    Atau, Anda juga dapat menggunakan perintah berikut untuk menjalankan program secara otomatis:\
    ```npm start```
