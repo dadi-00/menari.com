@@ -1,4 +1,7 @@
 # Selamat datang di github Menari.com
+Project ini merupakan submission untuk tugas challenge Dicoding MSIB 5\
+Dilarang keras untuk melakukan plagiarism.\
+Dalam project ini kita menggunakan react untuk interface dan express sebagai API local.
 # Cara menjalankan program
 1. Install file ke dalam komputer Anda\
 Anda dapat mengunduh file dari GitHub dengan menggunakan tombol "Clone or download". Setelah file diunduh, ekstrak file tersebut ke folder yang Anda inginkan.
