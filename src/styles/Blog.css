@@ -1,41 +1,84 @@
 .blog {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.blog h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-
-.blog div {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-.blog h3 {
-  font-size: 24px;
+.blog-card {
+  flex-basis: 30%;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
 
-.blog p {
-  margin-bottom: 10px;
+.blog-card h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-overflow: ellipsis;
 }
 
-.blog img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.cutoff-text {
+  --max-lines :3;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
 }
 
-.blog a {
+.blog-card p {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #666;
+  text-overflow: ellipsis;
+}
+
+.blog-card a {
   color: #007bff;
   text-decoration: none;
-  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-.blog a:hover {
-  text-decoration: underline;
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.popup.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup-content {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }

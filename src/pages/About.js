@@ -22,9 +22,7 @@ function About() {
   <div className="aboutDetail">
     <h2>M. Rosyadi Aulawi</h2>
     <h4>S253YA445</h4>
-    <p>Lorem Ipsum has been the industry's standard dummy text ever 
-      since the 1500s, when an unknown printer took a galley of type 
-      and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p>When I'm in social situations, I always hold onto my glass. It makes me feel comfortable and secure and I don't have to shake hands.</p>
       <div className="aboutsos">
     <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
     </div>
@@ -38,9 +36,7 @@ function About() {
   <div className="aboutDetail">
     <h2>Wilbert Huberta</h2>
     <h4>F172YB004</h4>
-    <p>Lorem Ipsum has been the industry's standard dummy text ever 
-      since the 1500s, when an unknown printer took a galley of type 
-      and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p>Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes.</p>
       <div className="aboutsos">
     <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
     </div>
@@ -54,9 +50,7 @@ function About() {
   <div className="aboutDetail">
     <h2>Satrio Lintang W</h2>
     <h4>F263YB001</h4>
-    <p>Lorem Ipsum has been the industry's standard dummy text ever 
-      since the 1500s, when an unknown printer took a galley of type 
-      and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p>When your mother asks, ‘Do you want a piece of advice?’ it is a mere formality. It doesn’t matter if you answer yes or no. You’re going to get it anyway.</p>
       <div className="aboutsos">
     <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
     </div>
@@ -70,9 +64,7 @@ function About() {
   <div className="aboutDetail">
     <h2>Aulia Rochullah Adis Akbar</h2>
     <h4>F253YB390</h4>
-    <p>Lorem Ipsum has been the industry's standard dummy text ever 
-      since the 1500s, when an unknown printer took a galley of type 
-      and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p>Insomnia sharpens your math skills because you spend all night calculating how much sleep you’ll get if you’re able to ‘fall asleep right now.</p>
       <div className="aboutsos">
     <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
     </div>
@@ -86,9 +78,7 @@ function About() {
   <div className="aboutDetail">
     <h2>Rizwan Alfian</h2>
     <h4>F253YA054</h4>
-    <p>Lorem Ipsum has been the industry's standard dummy text ever 
-      since the 1500s, when an unknown printer took a galley of type 
-      and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p>My therapist told me the way to achieve true inner peace is to finish what I start. So far I’ve finished two bags of M&Ms and a chocolate cake. I feel better already.</p>
       <div className="aboutsos">
     <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
     </div>

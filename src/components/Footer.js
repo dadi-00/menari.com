@@ -2,7 +2,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -22,8 +22,7 @@ function Footer() {
           </div>
           <div className="menuF">
           <Link to="/"> Home </Link>
-        <Link to="/menu"> Blog </Link>
-        <Link to="/contact"> Favorite </Link>
+        <Link to="/blog"> Blog </Link>
         <Link to="/about"> About Us </Link>
           </div>
         </div>

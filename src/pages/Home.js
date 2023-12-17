@@ -11,9 +11,8 @@ function Home() {
   return (
   <div className="homeMain">
       <div className="homeHero">
-    <p>Porttitor leo a diam sollicitudin tempor id eu nisl. Justo eget magna fermentum iaculis eu non. Nisi vitae suscipit tellus mauris a. Non arcu risus quis varius quam. Pellentesque elit ullamcorper dignissim cras.
-    Lorem sed risus ultricies tristique nulla aliquet enim. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Ornare arcu odio ut s
-    em nulla pharetra diam sit amet. Et malesuada fames ac turpis egestas integer eget aliquet. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Ipsum dolor sit amet consectetur adipiscing. Nec feugiat in fermentum posuere urna nec. Viverra vitae congue eu consequat ac felis donec et. Id diam vel quam elementum pulvinar etiam non quam. Quisque non tellus orci ac auctor. At augue eget arcu dictum varius duis at consectetur. Amet risus nullam eget felis eget nunc.</p>
+    <p>Indonesia merupakan negara yang kaya akan budaya, salah satunya adalah tarian daerah. Tarian daerah merupakan salah satu bentuk kesenian tradisional yang tumbuh dan berkembang di setiap daerah di Indonesia. Setiap tarian daerah memiliki ciri khas dan maknanya masing-masing.
+      Indonesia memiliki ribuan tarian daerah yang tersebar di seluruh pelosok negeri.</p>
     {/* <img src={hero}/> */}
     </div>
 
@@ -36,9 +35,8 @@ function Home() {
 </div>
 
 <div className="descbot"> 
-<p>Porttitor leo a diam sollicitudin tempor id eu nisl. Justo eget magna fermentum iaculis eu non. Nisi vitae suscipit tellus mauris a. Non arcu risus quis varius quam. Pellentesque elit ullamcorper dignissim cras.
-Lorem sed risus ultricies tristique nulla aliquet enim. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Ornare arcu odio ut s
-em nulla pharetra diam sit amet. Et malesuada fames ac turpis egestas integer eget aliquet. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Ipsum dolor sit amet consectetur adipiscing. Nec feugiat in fermentum posuere urna nec. Viverra vitae congue eu consequat ac felis donec et. Id diam vel quam elementum pulvinar etiam non quam. Quisque non tellus orci ac auctor. At augue eget arcu dictum varius duis at consectetur. Amet risus nullam eget felis eget nunc.</p>
+<p>Indonesia merupakan negara yang kaya akan budaya, salah satunya adalah tarian daerah. Tarian daerah merupakan salah satu bentuk kesenian tradisional yang tumbuh dan berkembang di setiap daerah di Indonesia. Setiap tarian daerah memiliki ciri khas dan maknanya masing-masing.
+      Indonesia memiliki ribuan tarian daerah yang tersebar di seluruh pelosok negeri.</p>
   
 </div>
 
